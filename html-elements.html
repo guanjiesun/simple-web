@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>学习使用 HTML 的基本元素</h1>
+        <hr>
+        <h2>1. anchor 元素</h2>
+        <p>
+            <a href="https://example.com" target="_blank">Example</a>
+            是一个用于示范的链接网站。
+        </p>
+        <p>
+            <a href="https://www.google.com" target="_blank">Google</a>
+            是世界上用户最多的搜索引擎。
+        </p>
+        <p>
+            <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+            是一个免费的百科全书网站。
+        </p>
+        
+        <hr>
+        <h2>2. 无序列表元素</h2>
+        <ul>
+            <li>apple</li>
+            <li>banana</li>
+            <li>pear</li>
+        </ul>
+
+        <hr>
+        <h2>3. 有序列表元素</h2>
+        <ol>
+            <li>apple</li>
+            <li>banana</li>
+            <li>pear</li>
+        </ol>
+
+        <hr>
+        <h2>4. table 元素</h2>
+        <table border="2" cellspacing="0" cellpadding="10">
+            <caption>学生信息表</caption>
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>年龄</th>
+                    <th>成绩</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>张三</td>
+                    <td>20</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>李四</td>
+                    <td>21</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">共2名学生</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr>
+        <h2>5. input 元素</h2>
+        <p>
+            <label for="text-input">文本框：</label>
+            <input type="text" placeholder="请输入内容" id="text-input">
+        </p>
+
+        <p>
+            <label for="password-input">密码框：</label>
+            <input type="password" placeholder="123456" id="password-input">
+        </p>
+
+        <p>
+            性别：
+            <label for="male">男</label>
+            <input type="radio" name="gender" value="male" id="male">
+
+            <label for="female">女</label>
+            <input type="radio" name="gender" value="female" id="female">
+
+            <label for="lgbt">LGBT</label>
+            <input type="radio" name="gender" value="lgbt" id="lgbt">
+        </p>
+
+        <p>
+            复选框：
+            <label for="hobby-reading">阅读</label>
+            <input type="checkbox" name="hobby" value="reading" id="hobby-reading" checked>
+
+            <label for="hobby-music">音乐</label>
+            <input type="checkbox" name="hobby" value="music" id="hobby-music">
+
+            <label for="hobby-travel">旅行</label>
+            <input type="checkbox" name="hobby" value="travel" id="hobby-travel">
+
+            <label for="hobby-sports">运动</label>
+            <input type="checkbox" name="hobby" value="sports" id="hobby-sports" checked>
+        </p>
+        
+        <hr>
+        <h2>6. select 元素</h2>
+        <label for="city-select">城市：</label>
+        <select name="city" id="city-select">
+            <option value="beijing">北京</option>
+            <option value="shanghai">上海</option>
+            <option value="guangzhou">广州</option>
+            <option value="shenzhen">深圳</option>
+            <option value="suzhou">苏州</option>
+            <option value="hangzhou">杭州</option>
+        </select>
+
+    </body>
+</html>
